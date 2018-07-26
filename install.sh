@@ -45,14 +45,21 @@ if [ ! -d "lib/$nwjs_dirname" ]; then
 fi
 
 echo "Copy: src/ to ${prefix}/src"
-cp -R src ${prefix}/src
+cp -R src ${prefix}
 
 echo "Copy: lib/ to ${prefix}/lib"
 cp -R lib ${prefix}
 
+echo "Generate: dingtalk.sh"
+touch dingtalk.sh
+echo "cd ${prefix}/lib/nwjs-v0.32.0-linux-x64
+./nw ${prefix}/src/
+" > dingtalk.sh
+chmod a+x dingtalk.sh
 
 echo "Copy: dingtalk.sh to ${prefix}"
 cp dingtalk.sh ${prefix}
+
 cp uninstall.sh ${prefix}
 
 echo "Create: /usr/share/applications/dingtalk.desktop"
@@ -68,8 +75,6 @@ Terminal=false
 StartupNotify=false
 Type=Application
 Categories=Application;Development;" > /usr/share/applications/dingtalk.desktop
-
-cp /usr/share/applications/dingtalk.desktop ~/Desktop/dingtalk.desktop
 
 echo ""
 echo "Done"
