@@ -7,11 +7,11 @@ Dingtalk for Linux-x64.
 
 # Introduction
 
-## QRCode lgin
+## QRCode login
 
 ![QRCode](images/QRCode.png)
 
-## Chat session
+## Chat
 
 ![ChatSession](images/start.jpg)
 
@@ -24,13 +24,13 @@ Enter 'Enter' to use default installation position
 
 ```
 # Step 1.
-$git clone git@github.com:monitor1379/Dingtalk-for-Linux.git
+$ git clone git@github.com:monitor1379/Dingtalk-for-Linux.git
 
 # Step 2.
-$cd Dingtalk-for-Linux
+$ cd Dingtalk-for-Linux
 
 # Step 3.
-$sudo ./install.sh
+$ sudo ./install.sh
 ```
 
 ```
@@ -58,8 +58,8 @@ Done
 ## Usage
 
 ```
-$cd path/to/dingtalk
-$./dingtalk.sh
+$ cd path/to/dingtalk
+$ ./dingtalk.sh
 ```
 
 after opening dingtalk you can dock shortcut to docker
@@ -68,6 +68,6 @@ after opening dingtalk you can dock shortcut to docker
 # Uninstallation
 
 ```
-cd path/to/dingtalk
-sudo ./uninstall.sh
+$ cd path/to/dingtalk
+$ sudo ./uninstall.sh
 ```
