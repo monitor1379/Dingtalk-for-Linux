@@ -37,15 +37,17 @@ $sudo ./install.sh
 ============================================
 Welcome to install Dingtalk for Linux
 
-Install to (/opt/dingtalk): 
+Install to (/home/monitor1379/dingtalk): /home/monitor1379/Softwares/dingtalk
 
-Install position: /opt/dingtalk
+Install position: /home/monitor1379/Softwares/dingtalk
 
 Installing...
-Create: /opt/dingtalk
-Copy: src/ to /opt/dingtalk/src
-Copy: lib/ to /opt/dingtalk/lib
-Copy: dingtalk.sh to /opt/dingtalk
+Create: /home/monitor1379/Softwares/dingtalk
+Download: nodejs-webkit
+Untar: nodejs-webkit
+Copy: src/ to /home/monitor1379/Softwares/dingtalk/src
+Copy: lib/ to /home/monitor1379/Softwares/dingtalk/lib
+Copy: dingtalk.sh to /home/monitor1379/Softwares/dingtalk
 Create: /usr/share/applications/dingtalk.desktop
 
 Done
