@@ -55,6 +55,16 @@ Done
 
 ```
 
+## Usage
+
+```
+$cd path/to/dingtalk
+$./dingtalk.sh
+```
+
+after opening dingtalk you can dock shortcut to docker
+
+
 # Uninstallation
 
 ```
