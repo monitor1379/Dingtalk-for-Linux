@@ -1,0 +1,17 @@
+{
+	"name": "Dingtalk",
+	"version": "v0.1.0",
+	"author": "monitor1379",
+	"main": "index.html",
+	"window" : {
+		"title":"Dingtalk",
+		"toolbar":false,
+		"icon": "icon128x128.png",
+		"frame":true,
+		"position":"center",
+		"always-on-top":true,
+		"width": 1000,
+		"height": 600,
+		"resizable":false
+	}
+}
